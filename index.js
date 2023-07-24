@@ -47,6 +47,11 @@ inquirer
         let svg = new Svg();
         svg.setShape(shape);
         svg.setText(answers.letters, answers.textColor)
-return fs.writeFileSync("./Output/logo.svg", svg.setLogo(),(err) =>
-err ? console.log(err) : console.log('Generated logo.svg. Check the Output folder!') )
-    })
+        return fs.writeFileSync(`./Output/${answers.letters}_logo.svg`, svg.setLogo())})
+        .then(err =>{err ? console.log(err) : console.log('Generated logo.svg. Check the Output folder!')})
+
+
+
+
+
+\
