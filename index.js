@@ -51,7 +51,3 @@ inquirer
         .then(err =>{err ? console.log(err) : console.log('Generated logo.svg. Check the Output folder!')})
 
 
-
-
-
-\
