@@ -33,7 +33,11 @@ npm i
 
 ## Usage
 
-Logos will be placed in the output folder.
+url for this repo is
+https://github.com/reflexson/logo-generator
+
+instructional video found here
+https://drive.google.com/file/d/1IBqHxV_rNqQf-ofkQrgrVVfb_7yfwkO6/view
 
 ## License
 
